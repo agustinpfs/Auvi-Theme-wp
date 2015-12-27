@@ -1,0 +1,2 @@
+<p>contenido de logo.php</p>
+<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, vel minima magnam veniam non accusamus voluptas, deleniti laboriosam maiores, tenetur sed inventore aspernatur ipsum deserunt quam asperiores aliquam nemo qui.</small>
