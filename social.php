@@ -10,8 +10,8 @@
 		<a href="https://twitter.com/santiagoclavijo" target="blank"><li class="Social-twitter">twitter</li></a>
 		<a href="https://www.youtube.com/user/legisladorclavijo" target="blank"><li class="Social-youtube">youtube</li></a>
 	</ul>
-	<div class="Social-after">
+	<!-- <div class="Social-after">
 		<h2>Últimas noticias</h2>
 		<!-- <hr align="left" class="hr"> -->
-	</div>
+	<!--</div> -->
 </div>

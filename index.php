@@ -8,7 +8,7 @@ Template Name: Página index
  -->
 
 	<?php rewind_posts(); ?>
-	<?php query_posts('cat=5'); ?>
+	<?php query_posts('cat=3'); ?>
  	<?php include TEMPLATEPATH . '/slider.php' ?>
 
  	<?php include TEMPLATEPATH . '/social.php' ?>
@@ -17,7 +17,7 @@ Template Name: Página index
 <!-- 		<?php query_posts('posts_per_page=1&order=Asc&cat=4'); ?>
  -->	
  		<?php rewind_posts(); ?>
- 		<?php query_posts('cat=4'); ?>
+ 		<?php query_posts('cat=1'); ?>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			<article class="Post-article">
 				<header class="Post-header">

@@ -4,7 +4,7 @@
 	&-article
 		width: 90%
 		margin 0 auto
-		border-bottom 2px solid #035103	
+		border-bottom 2px solid #08183C	
 		padding .5em .5em 1em .5em
 		// margin 0 0 0 2rem		
 	&-content
@@ -12,7 +12,7 @@
 			img
 				display none
 	&-header
-		border-bottom 1px solid #035103
+		border-bottom 1px solid #08183C
 		padding .5rem
 	&-data
 		display: flex 
@@ -35,12 +35,13 @@
 				
 	&-title 
 		margin-top: 1rem
+		color azulo
 		&--single
 			font-size: 2rem	
 		a 
 			text-decoration: none
 			font-size: 1.2em
-			color #035103
+			color #839CB5
 		
 	iframe
 		display: none		
@@ -110,14 +111,10 @@
 
 // native styles------------
 // -------------------------
-.more-link	
-	background-color #016037
-	padding: 4px 8px 6px 8px
-	color: white
-	font-size: 12px
-	border-radius: 2px
-	margin-right: 2px
-	box-shadow: inset 0 -3px 0 rgba(0,0,0,.2)
+.more-link
+	color: #052D89
+	background-color #839CB5
+	
 
 // activate image alignment:			
 .alignright
@@ -125,31 +122,27 @@
 	display: block
 
 .alignleft
+	
+
+.aligncenter
 	float left
 	display: block
 
-.aligncenter
-	display block
-	margin-right auto
-	margin-left auto
-
 
 .alignright, .alignright
-	float right
+	float left
 
 .alignleft, a .alignleft
 	float left
 
 .aligncenter, a .aligncenter
-	display block
-	margin-right auto
-	margin-left auto
+	float left
+	display: block
 
 
 .alignright, .alignright
-	float right
-	margin-left 1em
-	margin-bottom 1em
+	float left
+	display: block
 
 .alignleft, a .alignleft
 	float left
@@ -157,10 +150,8 @@
 	margin-bottom 1em
 
 .aligncenter, a .aligncenter
-	display block
-	margin-right auto
-	margin-left auto
-	margin-bottom 1em	
+	float left
+	display: block	
 	
 // img
 // 	.alignright
@@ -188,6 +179,7 @@
 		p
 			img
 				display block
+				padding .5rem
 		&-title 
 			margin-top: 2rem	
 			a 
@@ -198,7 +190,7 @@
 
 	.more-link	
 		font-size: .8rem
-			
+		
 // .alignright
 // .alignleft
 // .aligncenter

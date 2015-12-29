@@ -9,7 +9,9 @@
 			<div class="Page-title">
 				<h1><?php the_title(); ?></h1>
 			</div>
-			
+			<figure>
+				<?php the_post_thumbnail('medium'); ?>
+			</figure>
 			<?php the_content(); ?>
 			<?php endwhile; ?>
 			<!-- post navigation -->

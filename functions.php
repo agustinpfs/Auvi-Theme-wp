@@ -1,7 +1,7 @@
 <?php 
 add_theme_support('post-thumbnails' );
 
-add_image_size('my-size', 1250, 680, true);
+add_image_size('my-size', 600, 500, true);
 
 
  function register_my_menus() {
@@ -257,22 +257,11 @@ add_action('login_head', 'my_custom_login_logo');
 
 
 //logo admin
-function no_wp_logo_admin_bar_remove() {        
-    ?>
-        <style type="text/css">
-            #wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {
-                content: url(<?php echo get_stylesheet_directory_uri(); ?>/img/sclavijo.png)   !important;
-                top: 2px;
-            }
 
-            #wpadminbar #wp-admin-bar-wp-logo > a.ab-item {
-                pointer-events: none;
-                cursor: default;
-            }   
-        </style>
-    <?php
-}
-add_action('wp_before_admin_bar_render', 'no_wp_logo_admin_bar_remove', 0);
+
+
+// hasta acá
+
 
 function remove_footer_admin () {
   echo "Administración Santiago Clavijo Website";

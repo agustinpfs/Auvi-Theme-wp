@@ -4,7 +4,7 @@
 
 	<aside class="audio">
 	<?php rewind_posts(); ?>
-	<?php query_posts('cat=6'); ?>
+	<?php query_posts('cat=5'); ?>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<div class="">
 			<?php the_content(); ?>
