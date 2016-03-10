@@ -276,7 +276,7 @@ function exclude_widget_categories($args) {
  
     // ID de la categoría que queremos excluir.
     // Si son varias, separar con comas: '25,32,65'
-    $excluded = '5,6'; 
+    $excluded = '3,5'; 
  
     $args['exclude'] = $excluded;
     return $args;

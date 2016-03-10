@@ -47,14 +47,8 @@ Template Name: Página index
 	 					<small><?php the_category(); ?></small>
  					</div>
  					<small><em><?php comments_number() ?></em></small>
-				</div>
-
- 					 
-<!-- 			<hr>
- -->			
-			</article>
-
-			
+				</div>			
+			</article>		
 			
 		<?php endwhile; ?>
 		<!-- post navigation -->
@@ -63,24 +57,7 @@ Template Name: Página index
 		<!-- no posts found -->
 		<?php endif; ?>
 
-		<!-- <article>
-			<header>
-				<h3>titulo</h3>
-			</header>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, ut eligendi. Repellat, magnam animi praesentium dolores id saepe ullam. Veritatis, minima, laboriosam. Ab sed, aut atque quas provident error suscipit!</p>
-		</article>
-		<article>
-			<header>
-				<h3>titulo</h3>
-			</header>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eos quisquam, rerum cupiditate saepe sunt, est inventore nam commodi alias dignissimos deleniti error. Impedit neque consequuntur placeat, recusandae consequatur aliquam.</p>
-		</article>
-		<article>
-			<header>
-				<h3>titulo</h3>
-			</header>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet reprehenderit modi itaque accusamus eum porro. Aliquam eveniet repellat, consequuntur minima porro, soluta ea magni quas magnam et perspiciatis delectus iste.</p>
-		</article> -->
+		
 	</section>
 	<div class="Post-sidebar">
 		<?php include TEMPLATEPATH . '/sidebar-index.php' ?>
